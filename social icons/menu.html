@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>page</title>
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
+
+	<link rel="stylesheet" type="text/css" href="2.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+	<script type="text/javascript">
+		function openSlideMenu(){
+			document.getElementById("menu").style.width = "250px";
+			document.getElementById("content").style.marginLeft = "250px";
+		}
+		function closeSlideMenu(){
+			document.getElementById("menu").style.width = "0px";
+			document.getElementById("content").style.marginLeft = "0px";
+		}
+	</script>
+
+
+
+<script language="javascript">
+  <!--hide
+  var password;
+var pass1="****";
+password=prompt('enter password','');
+if (password==pass1)
+
+alert('correct password,click OK to continue.');
+else
+{
+  window.location="menu.html";
+}
+
+if (password!=pass1)
+
+alert('karan says Error!.');
+
+  //-->
+</script>
+
+
+
+</head>
+<body id="qq">
+
+	<div id="content">
+		<span class="slide">
+			<a href="#" onclick="openSlideMenu()">
+				<i class="fas fa-bars"></i>
+			</a>
+		</span>
+		<div class="nav" id="menu">
+			<a href="#" class="close" onclick="closeSlideMenu()">
+				<i class="fas fa-times"></i></a>
+			<a href="#">Home</a>
+			<a href="#">Members</a>
+			<a onclick="alert('This page is under development!~karan')"href="#">News</a>
+			<a href="#">Help!</a>
+			<a href="#">Contact Karan</a>
+		</div>
+	</div>
+
+
+
+
+
+
+
+  <div class="share">
+    <div class="toggle"></div>
+      <ul>
+        <li><a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+        <li><a href="#"><i class="fab fa-google-plus"></i></a></li>
+        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="#"><i class="fab fa-skype"></i></a></li>
+        <li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+        <li><a href="#"><i class="fab fa-whatsapp"></i></a></li>
+      </ul>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $(".toggle").click(function(){
+        $(".toggle").toggleClass("active")
+        $("ul").toggleClass("active")
+      })
+    })
+  </script>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p id="date" style="text-align: right; color: white;font-size: 10px;"></p>
+<script>
+document.getElementById("date").innerHTML = Date();
+</script>
+
+</body>
+</html>
