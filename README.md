@@ -24,9 +24,6 @@ As we all know, Front-End are used world wide with rapid increase of users Now, 
 
 ![Animated GIF-downsized_large (4)](https://user-images.githubusercontent.com/62024355/87423738-6a0cb380-c5f8-11ea-93bc-385783186216.gif)
 
-## Glimps
-
-![Animated GIF-downsized_large (6)](https://user-images.githubusercontent.com/62024355/87871365-5d5bd700-c9cd-11ea-888e-5de5f24c7eac.gif)
 
 
 
